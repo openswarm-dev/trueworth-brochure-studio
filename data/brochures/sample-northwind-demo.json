@@ -1,0 +1,227 @@
+{
+  "id": "sample-northwind-demo",
+  "input": {
+    "companyName": "Northwind Freight (sample)",
+    "website": "https://example.com",
+    "linkedin": "",
+    "socials": "",
+    "contactName": "Alex Morgan",
+    "contactRole": "Operations Director",
+    "notes": "Fictional sample used to preview the brochure design. Delete it once you have real brochures.",
+    "service": "auto",
+    "preparedBy": ""
+  },
+  "status": "ready",
+  "createdAt": "2026-10-19T09:00:00.000Z",
+  "updatedAt": "2026-10-19T11:30:07.591Z",
+  "log": [
+    {
+      "at": "2026-10-19T09:00:00.000Z",
+      "kind": "done",
+      "message": "Sample brochure (no research run)"
+    }
+  ],
+  "error": null,
+  "research": {
+    "dossier": "# Sample dossier\n\nThis is a **fictional** company used to preview the design. Real brochures show Claude's full research dossier here, with source links next to each fact.",
+    "sources": [
+      {
+        "url": "https://example.com",
+        "title": "Example source"
+      }
+    ]
+  },
+  "data": {
+    "profile": {
+      "company_name": "Northwind Freight",
+      "one_liner": "A fictional UK freight forwarder moving palletised goods for retailers and manufacturers.",
+      "sector": "Freight & logistics",
+      "size_estimate": "~140 staff (sample)",
+      "headquarters": "Warrington, UK",
+      "key_people": [
+        {
+          "name": "Alex Morgan",
+          "role": "Operations Director"
+        },
+        {
+          "name": "Sam Patel",
+          "role": "Managing Director"
+        }
+      ],
+      "signals": [
+        {
+          "type": "growth",
+          "detail": "Opened a second cross-dock hub this year, adding volume without adding a planning team."
+        },
+        {
+          "type": "hiring",
+          "detail": "Four open customer-service roles suggest inbound tracking queries are outpacing the team."
+        },
+        {
+          "type": "news",
+          "detail": "Won a three-year contract with a national homeware retailer."
+        },
+        {
+          "type": "tech",
+          "detail": "Runs a legacy TMS with heavy spreadsheet use for quoting."
+        }
+      ],
+      "ai_maturity": "Exploring",
+      "ai_maturity_reason": "Staff mention ChatGPT on LinkedIn, but no governed AI tools or policy are visible.",
+      "talking_points": [
+        "Congratulate them on the new retail contract and ask how onboarding is going.",
+        "Ask how many 'where's my delivery' queries the team handles a day.",
+        "Ask whether there is an AI policy yet; offer the free policy creator."
+      ]
+    },
+    "brochure": {
+      "illustration": "rocket",
+      "cover": {
+        "eyebrow": "AI PARTNERSHIP PROPOSAL",
+        "headline_lead": "AI that keeps Northwind",
+        "headline_accent": "moving faster",
+        "intro": "You've added a new hub and a major retail contract. We help your team absorb that growth with [[governed AI]] that handles the repetitive work, so your people stay focused on customers.",
+        "stats": [
+          {
+            "label": "FIRST RESULT",
+            "value": "30 days",
+            "sub": "",
+            "accent": false
+          },
+          {
+            "label": "START WITH",
+            "value": "AI Roadmap",
+            "sub": "£1,500, credited in full",
+            "accent": true
+          },
+          {
+            "label": "BUILT FOR",
+            "value": "Your ops team",
+            "sub": "~140 people, two hubs",
+            "accent": false
+          }
+        ]
+      },
+      "snapshot": {
+        "title": "Where Northwind is today",
+        "intro": "Northwind is growing quickly: a second cross-dock hub, a three-year homeware contract and **four open customer-service roles**. Growth like this usually lands first on the people answering tracking queries and building quotes.",
+        "callout": "The opportunity: absorb new volume **without** growing the back office at the same rate.",
+        "dark_label": "WHY NOW",
+        "dark_text": "Your team is already experimenting with AI tools. Getting it [[governed and pointed at the right workflow]] now means the new contract runs smoothly, and your customer data stays protected.",
+        "insights": [
+          {
+            "title": "Growth outpacing the team",
+            "body": "Open service roles and a new hub suggest inbound queries are rising faster than headcount."
+          },
+          {
+            "title": "Quoting runs on spreadsheets",
+            "body": "Manual rate lookups slow quotes and make margins harder to see."
+          },
+          {
+            "title": "A new anchor customer",
+            "body": "Retail contracts bring strict SLAs and reporting expectations from day one."
+          },
+          {
+            "title": "AI use without guardrails",
+            "body": "Staff are trying AI tools, but there's no visible policy covering customer data."
+          }
+        ]
+      },
+      "opportunities": {
+        "title": "Where AI can pay back for Northwind",
+        "intro": "Six opportunities, ranked by value against effort. The first three are typical 30-day builds.",
+        "items": [
+          {
+            "area": "CUSTOMER SERVICE",
+            "title": "Tracking query agent",
+            "body": "Answers 'where's my delivery' emails from TMS data, with a person checking exceptions.",
+            "impact": "Est. 15–25 hrs/week saved",
+            "effort": "Quick win"
+          },
+          {
+            "area": "SALES",
+            "title": "Faster freight quotes",
+            "body": "Drafts quotes from rate cards and lane history for a planner to approve.",
+            "impact": "Quotes in minutes, not hours",
+            "effort": "Quick win"
+          },
+          {
+            "area": "OPERATIONS",
+            "title": "POD and paperwork processing",
+            "body": "Reads delivery notes and PODs, flags discrepancies, updates records.",
+            "impact": "Est. 30–50% less admin",
+            "effort": "Medium"
+          },
+          {
+            "area": "ACCOUNT MANAGEMENT",
+            "title": "Automated SLA reporting",
+            "body": "Builds weekly customer performance packs from your systems.",
+            "impact": "Est. 1 day/week saved",
+            "effort": "Quick win"
+          },
+          {
+            "area": "PLANNING",
+            "title": "Load and route suggestions",
+            "body": "Suggests consolidations across hubs for planners to accept or adjust.",
+            "impact": "Typically 5–10% fewer part-loads",
+            "effort": "Strategic"
+          },
+          {
+            "area": "PEOPLE",
+            "title": "Driver and staff knowledge base",
+            "body": "Instant answers on procedures, site rules and compliance, from your own documents.",
+            "impact": "Faster onboarding",
+            "effort": "Medium"
+          }
+        ],
+        "highlight_title": "Our suggested first build: the tracking query agent",
+        "highlight_body": "It sits on data you already have, takes pressure off the team you're recruiting for, and gives a [[measurable result in 30 days]]."
+      },
+      "path": {
+        "title": "Your path with True Worth AI",
+        "intro": "Start small, prove the value, then scale on proof.",
+        "recommended_service": "roadmap",
+        "recommended_reason": "With a new hub and a new contract, a two-week Roadmap pins down which workflow pays back fastest before you commit to a build.",
+        "steps": [
+          {
+            "label": "WEEKS 1–2 · AI ROADMAP",
+            "title": "Find the payback",
+            "body": "We map quoting, tracking and paperwork with your ops leads and rank the opportunities."
+          },
+          {
+            "label": "WEEKS 3–6 · 30-DAY PROJECT",
+            "title": "Build the first agent",
+            "body": "We build the top opportunity inside your systems, governed and live in 30 days."
+          },
+          {
+            "label": "DAY 90 · PROOF",
+            "title": "Measure the return",
+            "body": "We track the result against the baseline agreed in week one."
+          },
+          {
+            "label": "ONGOING · SUPPORT",
+            "title": "Scale on proof",
+            "body": "We keep it running and build the next opportunity on your plan."
+          }
+        ]
+      },
+      "proof": {
+        "title": "Proof from businesses like yours",
+        "intro": "Our customer-service work maps closely to your tracking queries.",
+        "case_studies": [
+          "fca_lender",
+          "saas_pilot"
+        ],
+        "testimonial": "digital_dra"
+      },
+      "close": {
+        "lead": "john",
+        "lead_note": "John will run your Roadmap himself and write the plan your team acts on.",
+        "eyebrow": "THE NEXT STEP",
+        "headline_lead": "Let's find your first",
+        "headline_accent": "30-day win.",
+        "body": "Book a free 30-minute discovery call. We'll look at your tracking and quoting workflows and tell you honestly where AI pays back fastest for Northwind."
+      }
+    }
+  }
+}

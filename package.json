@@ -1,0 +1,24 @@
+{
+  "name": "trueworth-sales-app",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Researches a prospect and generates a custom True Worth AI partnership brochure.",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0",
+    "puppeteer-core": "^25.14.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "pdfjs-dist": "^6.4.299",
+    "pngjs": "^7.0.0"
+  }
+}
